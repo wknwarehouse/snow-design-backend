@@ -1,0 +1,17 @@
+﻿{
+  "name": "snow-design-backend",
+  "version": "1.0.0",
+  "description": "雪 Design 室内设计公司后端服务",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@vercel/postgres": "^0.8.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
